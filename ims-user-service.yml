@@ -9,3 +9,5 @@ eureka:
 spring:
   application:
     name: ims-user-service2
+
+name: bharat
