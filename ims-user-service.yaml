@@ -11,6 +11,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  config:
+    import: configserver:http://localhost:4048
+  application:
+    name: ims-user-service
 eureka:
   instance:
     prefer-ip-address: true
